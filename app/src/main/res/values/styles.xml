@@ -1,0 +1,55 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="AppTheme.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+
+    <style name="PrimaryBtn" parent="Theme.AppCompat.Light">
+        <item name="colorButtonNormal">@color/colorPrimary</item>
+        <item name="android:textColor">@color/White</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="WhiteBtn" parent="Theme.AppCompat.Light">
+        <item name="colorButtonNormal">@color/White</item>
+    </style>
+
+    <style name="BtnBorderPrimary" parent="Theme.AppCompat.Light">
+        <item name="android:background">@drawable/bg_border_primary</item>
+        <item name="android:padding">10dp</item>
+    </style>
+
+    <style name="Widget.Group.Single" parent="Theme.AppCompat.Light">
+        <item name="android:background">@drawable/bg_input_group_single</item>
+    </style>
+
+    <style name="MyTextViewHead" parent="Theme.AppCompat.Light">
+        <item name="android:textColor">@color/DimGray</item>
+        <item name="android:textSize">@dimen/font_22</item>
+    </style>
+
+    <style name="MyTextView" parent="Theme.AppCompat.Light">
+        <item name="android:textColor">@color/DarkGray</item>
+        <item name="android:textSize">@dimen/font_20</item>
+    </style>
+
+    <style name="MyTextViewStyleฺold" parent="Theme.AppCompat.Light">
+        <item name="android:textColor">@color/DimGray</item>
+        <item name="android:textSize">@dimen/font_24</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+</resources>

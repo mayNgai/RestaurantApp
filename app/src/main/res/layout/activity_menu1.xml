@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="20sp"
+    android:paddingRight="20sp"
+    android:gravity="center_horizontal|center_vertical">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="5dp">
+        <Button
+            android:id="@+id/btn_admin"
+            android:layout_width="match_parent"
+            android:drawableTop="@drawable/ic_menu_admin"
+            android:text="Admin"
+            android:background="@drawable/bg_border_primary"
+            android:padding="10dp"
+            android:layout_height="100dp" />
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:weightSum="2">
+            <Button
+                android:id="@+id/btn_staff"
+                android:layout_width="0dp"
+                android:layout_height="100dp"
+                android:drawableLeft="@drawable/ic_menu_staff"
+                android:text="Staff"
+                android:background="@drawable/bg_border_primary"
+                android:padding="10dp"
+                android:layout_weight="1"/>
+            <Button
+                android:id="@+id/btn_cook"
+                android:layout_width="0dp"
+                android:layout_height="100dp"
+                android:drawableLeft="@drawable/ic_menu_cooking"
+                android:text="Cooking"
+                android:background="@drawable/bg_border_primary"
+                android:padding="10dp"
+                android:layout_marginLeft="5dp"
+                android:layout_weight="1"/>
+
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/btn_customer"
+            android:layout_width="match_parent"
+            android:drawableTop="@drawable/ic_menu_customer"
+            android:text="Customer"
+            android:background="@drawable/bg_border_primary"
+            android:layout_marginTop="5dp"
+            android:padding="10dp"
+            android:layout_height="100dp" />
+
+    </LinearLayout>
+</RelativeLayout>

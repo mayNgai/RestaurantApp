@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <group
+        android:orderInCategory="102"
+        app:showAsAction="always">
+        <item
+            android:id="@+id/action_edit"
+            android:orderInCategory="103"
+            app:showAsAction="always"
+            android:visible="false"
+            android:title="แก้ไข"/>
+        <item
+            android:id="@+id/action_save"
+            android:orderInCategory="103"
+            app:showAsAction="always"
+            android:title="บันทึก"/>
+        <item
+            android:orderInCategory="103"
+            app:showAsAction="always"
+            android:visible="true"
+            android:icon="@drawable/ic_save_white_24dp"
+            android:title=""/>
+    </group>
+</menu>
